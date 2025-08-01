@@ -1,27 +1,4 @@
-import {
-	ts,
-	c,
-	python,
-	java,
-	cpp,
-	javascript,
-	html,
-	css,
-	reactjs,
-	tailwind,
-	nodejs,
-	git,
-	edunet,
-	weatherpedia,
-	termpw,
-	payloadmaster,
-	threejs,
-	mhft,
-	sketcher,
-	mathwork,
-	CompileVortex,
-	eduskill,
-} from '../assets';
+import { ts, javascript, html, css, reactjs, tailwind, nodejs, git, payloadmaster, threejs, mhft, sketcher, mathwork, CompileVortex, eduskill, arenda, burger, irvas } from '../assets';
 
 export const navLinks = [
 	{
@@ -92,67 +69,39 @@ export const experiences = [
 
 export const projects = [
 	{
-		name: 'WeatherPedia',
-		description: 'Web-based platform that allows users to access weather information for their location by entering it in the search field',
+		name: 'Страница объявлений с арендой жилья',
+		description: 'Платформа для мокового размещения объявлений по аренде жилья',
 		tags: [
 			{ name: 'Javascript', color: 'blue-text-gradient' },
 			{ name: 'HTML', color: 'green-text-gradient' },
-			{ name: 'bootstrap 5.3.0', color: 'pink-text-gradient' },
-			{ name: 'Weather API by API Ninjas', color: 'yellow-text-gradient' },
+			{ name: 'SCSS', color: 'pink-text-gradient' },
+			{ name: 'Leaflet_Maps', color: 'yellow-text-gradient' },
 		],
-		image: weatherpedia,
-		source_code_link: 'https://github.com/lohitkolluri/WeatherPedia',
+		image: arenda,
+		source_code_link: 'https://search-flat-project.vercel.app/',
 	},
 	{
-		name: 'Terminal Like Portfolio Website',
-		description: 'A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.',
+		name: 'Космическая бургерная',
+		description: 'Сайт бургерной. Использовались в работе - React, Redux, TS, Vitest, WebSockets, JwtTokens',
 		tags: [
-			{ name: 'HTML', color: 'blue-text-gradient' },
-			{ name: 'css', color: 'green-text-gradient' },
-			{ name: 'Javascript', color: 'pink-text-gradient' },
+			{ name: 'React', color: 'blue-text-gradient' },
+			{ name: 'Redux', color: 'green-text-gradient' },
+			{ name: 'TS', color: 'pink-text-gradient' },
+			{ name: 'Vitest', color: 'blue-text-gradient' },
+			{ name: 'WebSockets', color: 'green-text-gradient' },
 		],
-		image: termpw,
-		source_code_link: 'https://github.com/lohitkolluri/lohitkolluri.github.io',
+		image: burger,
+		source_code_link: 'https://space-burger-cafe.vercel.app/',
 	},
 	{
-		name: 'Mental Health Fitness Tracker',
-		description: 'ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.',
-		tags: [
-			{ name: 'Machine Learning', color: 'blue-text-gradient' },
-			{ name: 'Jupyter Notebook', color: 'green-text-gradient' },
-			{ name: 'Regression Algorithms', color: 'pink-text-gradient' },
-		],
-		image: mhft,
-		source_code_link: 'https://github.com/lohitkolluri/mental_health_fitness_tracker',
-	},
-	{
-		name: 'PayloadMaster',
-		description: 'Tool to automate payload creation using the Metasploit framework',
-		tags: [{ name: 'shell', color: 'blue-text-gradient' }],
-		image: payloadmaster,
-		source_code_link: 'https://github.com/lohitkolluri/PayloadMaster',
-	},
-	{
-		name: 'CompileVortex',
-		description: 'Tool to automate payload creation using the Metasploit framework',
+		name: 'Ирвас окна',
+		description: 'Лендинг с интерактивным калькуляторм подсчета стоимости',
 		tags: [
 			{ name: 'Javascript', color: 'blue-text-gradient' },
-			{ name: 'CSS', color: 'green-text-gradient' },
-			{ name: 'HTML', color: 'pink-text-gradient' },
+			{ name: 'HTML', color: 'green-text-gradient' },
+			{ name: 'SCSS', color: 'pink-text-gradient' },
 		],
-		image: CompileVortex,
-		source_code_link: 'https://github.com/lohitkolluri/CompileVortex',
-	},
-	{
-		name: 'Sketcher',
-		description: 'Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.',
-		tags: [
-			{ name: 'OpenCV', color: 'blue-text-gradient' },
-			{ name: 'Matplotlib', color: 'green-text-gradient' },
-			{ name: 'Python', color: 'pink-text-gradient' },
-		],
-
-		image: sketcher,
-		source_code_link: 'https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App',
+		image: irvas,
+		source_code_link: 'https://potapov11.github.io/window-page/',
 	},
 ];

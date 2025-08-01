@@ -17,6 +17,9 @@ import payloadmaster from './projects/payloadmaster.png';
 import mhft from './projects/mhft.png';
 import sketcher from './projects/sketcher.png';
 import CompileVortex from './projects/CompileVortex.png';
+import arenda from './projects/arenda.png';
+import burger from './projects/burger.png';
+import irvas from './projects/irvas.png';
 
 // Import tech logos
 import css from './tech/css.png';
@@ -61,4 +64,7 @@ export {
 	close,
 	eduskill,
 	ts,
+	arenda,
+	burger,
+	irvas,
 };
