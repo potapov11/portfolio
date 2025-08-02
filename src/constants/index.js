@@ -1,4 +1,25 @@
-import { ts, javascript, html, css, reactjs, tailwind, nodejs, git, payloadmaster, threejs, mhft, sketcher, mathwork, CompileVortex, eduskill, arenda, burger, irvas } from '../assets';
+import {
+	ts,
+	javascript,
+	html,
+	css,
+	reactjs,
+	tailwind,
+	nodejs,
+	git,
+	payloadmaster,
+	threejs,
+	mhft,
+	sketcher,
+	mathwork,
+	CompileVortex,
+	eduskill,
+	arenda,
+	burger,
+	irvas,
+	severnaya,
+	nasha,
+} from '../assets';
 
 export const navLinks = [
 	{
@@ -103,5 +124,28 @@ export const projects = [
 		],
 		image: irvas,
 		source_code_link: 'https://potapov11.github.io/window-page/',
+	},
+	{
+		name: 'Корпоративный сайт Severnaya.ru',
+		description: 'Основной сайт компании. Переверстка и оптимизация сайта, перевод с легаси на современный стек',
+		tags: [
+			{ name: 'Javascript', color: 'blue-text-gradient' },
+			{ name: 'HTML', color: 'green-text-gradient' },
+			{ name: 'SCSS', color: 'pink-text-gradient' },
+		],
+		image: severnaya,
+		source_code_link: 'https://severnaya.ru/',
+	},
+	{
+		name: 'Интернет магазин с высокой посещаемостью и загрузкой',
+		description: 'Оптимизация работы, внедрение нового функционала, работа со сторонними apiб разработка дизайна',
+		tags: [
+			{ name: 'Javascript', color: 'blue-text-gradient' },
+			{ name: 'HTML', color: 'green-text-gradient' },
+			{ name: 'SCSS', color: 'pink-text-gradient' },
+			{ name: 'Vue', color: 'blue-text-gradient' },
+		],
+		image: nasha,
+		source_code_link: 'https://nasha.severnaya.ru/',
 	},
 ];

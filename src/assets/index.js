@@ -20,6 +20,8 @@ import CompileVortex from './projects/CompileVortex.png';
 import arenda from './projects/arenda.png';
 import burger from './projects/burger.png';
 import irvas from './projects/irvas.png';
+import severnaya from './projects/severnaya.png';
+import nasha from './projects/nasha.png';
 
 // Import tech logos
 import css from './tech/css.png';
@@ -67,4 +69,6 @@ export {
 	arenda,
 	burger,
 	irvas,
+	severnaya,
+	nasha,
 };
